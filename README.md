@@ -38,7 +38,7 @@ This repository contains the backend implementation for a social media applicati
    ```bash
    uvicorn main:app --reload```
 
-   The server will be available at http://127.0.0.1:8000
+The server will be available at http://127.0.0.1:8000
 
 
 
