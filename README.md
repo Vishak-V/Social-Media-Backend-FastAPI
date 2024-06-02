@@ -33,7 +33,7 @@ This repository contains the backend implementation for a social media applicati
    pip install -r requirements.txt```
 4. **Set up the PostgreSQL database**
    
-Create a PostgreSQL database and update the DATABASE_URL in the config.py file with your database credentials.
+   Create a PostgreSQL database and update the DATABASE_URL in the config.py file with your database credentials.
 5. **Start the FastAPI server**
    ```bash
    uvicorn main:app --reload```
