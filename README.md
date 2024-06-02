@@ -22,21 +22,25 @@ This repository contains the backend implementation for a social media applicati
 
    ```bash
    git clone https://github.com/Vishak-V/Social-Media-Backend-FastAPI.git
-   cd Social-Media-Backend-FastAPI```
+   cd Social-Media-Backend-FastAPI
+   ```
 2. **Create and Activate a Virtual Environment**
   
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate```
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate
+   ```
 3. **Install Dependencies**
    ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
+   ```
 4. **Set up the PostgreSQL database**
    
    Create a PostgreSQL database and update the DATABASE_URL in the config.py file with your database credentials.
 5. **Start the FastAPI server**
    ```bash
-   uvicorn main:app --reload```
+   uvicorn main:app --reload
+   ```
 
    The server will be available at http://127.0.0.1:8000
 
